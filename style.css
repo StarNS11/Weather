@@ -40,3 +40,30 @@ button:hover{
 .weather-box{
     margin-top:20px;
 }
+/* Created by NS badge */
+
+.created-by-ns{
+position: fixed;
+bottom: 15px;
+left: 15px;
+background: linear-gradient(135deg,#00c6ff,#0072ff);
+color: white;
+padding: 8px 14px;
+border-radius: 25px;
+font-size: 13px;
+font-weight: bold;
+letter-spacing: 1px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+font-family: Arial, sans-serif;
+animation: glow 3s infinite alternate;
+z-index: 9999;
+}
+
+@keyframes glow{
+from{
+box-shadow:0 0 5px #00c6ff;
+}
+to{
+box-shadow:0 0 20px #0072ff;
+}
+}
