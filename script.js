@@ -4,7 +4,7 @@ let location = document.getElementById("locationInput").value;
 
 let apiKey = "db87731d94824e1f81b175303261503";
 
-let url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
+let url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
 try{
 
